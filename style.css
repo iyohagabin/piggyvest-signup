@@ -1,20 +1,33 @@
 html {
     background-color:#062863;
 }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    max-width: 100%;
+    height: auto;
+
+}
 main {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    font-family: U8,sans-serif;
     box-sizing: inherit;
+    
+}
 
 }
 h1 {
     color: #083e9e;
     text-align: center;
+    font-size: 1.5rem;
 }
 p {
+
 }
 h5 {
     text-align: center;
