@@ -15,40 +15,33 @@ main {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-family: sans-serif;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
     box-sizing: inherit;
+    
     
 }
 
 h1 {
     color: #083e9e;
     text-align: center;
-    font-size: 1.5rem;
+    
 }
 p {
+    font-family: Karla,sans-serif;
+    color: #4a5568;
+    text-align: center;
+    font-size: .875rem;
+   }
 
-}
-h5 {
-    text-align: center;
-    color: white;
-    
-}
-    
-.card {
-    display: block;
-    justify-content: center;
-    flex-direction: column;
-    min-height: 80vh;
-    min=width: 640px;
-    background-color:#fff;
-    text-align: center;
-    padding-bottom: 3rem;
-    padding: 2.5rem;
-    box-sizing: inherit;
-    line-height: 1.5;
-    border-top-left-radius: 1.25rem;
-    border-top-right-radius: 1.25rem;
-    border-bottom-right-radius: 1.25rem;
-    
-    
+input {
+    background-color: #edf2f7;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    line-height: inherit;
+    display: inline-block;
+    border-radius: .25rem;
+    outline: 0;
+    text-align: start;
+
 }
