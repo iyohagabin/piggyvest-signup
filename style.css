@@ -45,3 +45,29 @@ input {
     text-align: start;
 
 }
+
+
+h5 {
+    text-align: center;
+    color: white;
+    
+}
+    
+.card {
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 80vh;
+    min=width: 640px;
+    background-color:#fff;
+    text-align: center;
+    padding-bottom: 3rem;
+    padding: 2.5rem;
+    box-sizing: inherit;
+    line-height: 1.5;
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+    border-bottom-right-radius: 1.25rem;
+    
+    
+}
