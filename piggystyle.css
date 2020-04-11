@@ -1,18 +1,42 @@
+html {
+    background-color:#062863;
+}
 main {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    box-sizing: inherit;
+
 }
 h1 {
-    color: darkblue;
+    color: #083e9e;
     text-align: center;
 }
 p {
-    
-
 }
 h5 {
+    text-align: center;
+    color: white;
+    
+}
+    
+.card {
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 80vh;
+    min=width: 640px;
+    background-color:#fff;
+    text-align: center;
+    padding-bottom: 3rem;
+    padding: 2.5rem;
+    box-sizing: inherit;
+    line-height: 1.5;
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+    border-bottom-right-radius: 1.25rem;
+    
     
 }
